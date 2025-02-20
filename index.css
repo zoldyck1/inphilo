@@ -1,0 +1,129 @@
+
+
+body {
+    background-color: #000; /* Pure black. */
+    color: #fff; /* Pure white. */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#container {
+    width: auto;
+    max-width: 95%;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.logo {
+    text-align: center;
+}
+.logo figure{
+    margin:0;
+}
+
+
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+    height: auto;
+}
+.logoPHILOSOPHY img {
+    display: block;
+    margin: 0 auto;
+    max-width: 19%;
+    height: auto;
+}
+.logoSCIENCE img {
+    display: block;
+    margin: 0 auto;
+    max-width: 15%;
+    height: auto;
+}
+/* KEEP THE TEXT, YOU IDIOT (that's me) */
+.slogan, .latest {
+    /* display: none;  REMOVED THIS SHIT */
+    color: #ccc; /*  Visible text, slightly greyed out */
+    text-align: center; /* Center the text */
+    margin: 5px 0; /* Some spacing */
+}
+#Authors{
+    color: #003cff;
+}
+/* style latest even more*/
+.latest strong{
+    color:#fff;
+}
+.buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.buttons a {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    display: inline-block;
+    border: none;
+}
+
+/* unhide footer*/
+footer{
+   display:block; /* SHOW THE FOOTER AGAIN */
+    text-align: center; /* Center the footer content */
+    color: #ffffff; /* Greyed-out footer text */
+    padding-top:20px; /* add space between content*/
+
+}
+footer p, footer a {
+     border:none;
+    padding:3px 0;
+    margin:3px 0;
+    color:#ffffff;
+}
+header{
+     border:none;
+    padding:0;
+    margin:0;
+}
+img {
+    display: block; /* Make images block-level */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 40px; /* Ensure images don't overflow their container */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+/* Book list styling in philosophy.htm and science.htm */
+.book-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    text-align: center;
+    ; /* Center list items */
+}
+
+
+.book-list li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+.book-list a {
+    color: #000000; /* Link color */
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: inline-block; /* Make links block-like for padding */
+}
+
+.book-list a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
