@@ -1,5 +1,3 @@
-
-
 body {
     background-color: #000; /* Pure black. */
     color: #fff; /* Pure white. */
@@ -126,4 +124,208 @@ img {
 
 .book-list a:hover {
     text-decoration: underline; /* Underline on hover for clarity */
+}
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#formMessage {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.main-menu {
+    padding: 2rem 0;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    flex: 1;
+    max-width: 300px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.menu-item a {
+    display: block;
+    padding: 2rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    margin: 0 0 0.5rem 0;
+    color: #333;
+}
+
+.menu-item p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #171616;
+    padding: 40px 0;
+    margin-top: 3rem;
+    border-top: 1px solid #eee;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 50%;
+    background: #e8e8e8;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+.social-links a:hover .fa-linkedin-in {
+    color: #0077b5;
+}
+
+.social-links a:hover .fa-instagram {
+    color: #e4405f;
+}
+
+.social-links a:hover .fa-x-twitter {
+    color: #000000;
+}
+
+footer p {
+    margin: 10px 0;
+    color: #666;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+
+footer img {
+    max-width: 150px;
+    height: auto;
+    margin: 15px 0;
+}
+
+.license {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Responsive footer */
+@media (max-width: 768px) {
+    .social-links {
+        gap: 15px;
+    }
+
+    .social-links a {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+#scrollToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+    opacity: 7;
+    transition: opacity 3s;
+}
+
+#scrollToTop:hover {
+    opacity: 10;
+    background-color: #ddd;
 }
