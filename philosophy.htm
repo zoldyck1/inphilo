@@ -4,11 +4,11 @@
         <meta charset="utf-8">
 
         <title>Analytic Philosophy</title>
-         <link rel="icon" href="favicon.png" type="image/png">
         <meta name="description" content="Introduction to Analytic Philosophy">
         <meta name="viewport" content="width=device-width,initial-scale=1">
 
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
 
     <body>
@@ -40,34 +40,62 @@
 
         <h2>Download Books</h2>
         <ul class="book-list">
-            <li><a class="botona"    href="Causality Models, Reasoning and Inference by inphilo.pdf" download>Causality Models,Reasoning and Inference(PDF)</a></li>
-            <li><a class="botona" href="Knowledge and Its Limits (Timothy Williamson) by inphilo.pdf" download>Knowledge and Its Limits (Timothy Williamson)(PDF)</a></li>
-            <li><a class="botona" href="The Philosophy of Philosophy (Timothy Williamson) by inphilo.pdf" download>The Philosophy of Philosophy (Timothy Williamson)(PDF)</a></li>
+            <li><a class="botona"    href="philo/Causality Models, Reasoning and Inference by inphilo.pdf" download>Causality Models,Reasoning and Inference(PDF)</a></li>
+            <li><a class="botona" href="philo/Knowledge and Its Limits (Timothy Williamson) by inphilo.pdf" download>Knowledge and Its Limits (Timothy Williamson)(PDF)</a></li>
+            <li><a class="botona" href="philo/The Philosophy of Philosophy (Timothy Williamson) by inphilo.pdf" download>The Philosophy of Philosophy (Timothy Williamson)(PDF)</a></li>
         </ul>
     </article>
 
                 </div>
             </main>
             <footer>
+                <div class="social-links">
+                    <a href="https://x.com/ayoub_zoldyck" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/11___liebert/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ayoub-loula-4b0389239/" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
 
-    <p>
-        Authors: <a id="Authors" href="https://www.instagram.com/11___liebert/" target="_blank" rel="noopener noreferrer">Ayoub Loulaji</a>
-
-    </p>
-    <p>Sponsored by:</p>
-    <p>
-            <img  src="hunterxhunter.png" alt="Sponsor Logo"/>
-    </p>
-    <p>
-        Logo by: <em>Mark Abdelmesseh</em>
-    </p>
-
+                <p>
+                    Authors: Johan Liebert 
+                </p>
+                <p>
+                    Logo by: <em>Mark Abdelmesseh</em>
+                </p>
 
                 <p class="license">
-                    Composer and all content on this site are released under the <a href="https://github.com/composer/composer/blob/main/LICENSE" title="View the MIT license (external link to GitHub.com)" aria-label="View the MIT license (external link to GitHub.com)">MIT license</a>.
+                    All content on this site are released under <a href="hunterxhunter.png" target="_blank">zoldyck1</a>.
                 </p>
             </footer>
         </div>
+
+        <button id="scrollToTop" title="Go to top">↑</button>
+        <script>
+            // Get the button
+            const scrollToTopBtn = document.getElementById("scrollToTop");
+
+            // Show button when user scrolls down 20px from top
+            window.onscroll = function() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    scrollToTopBtn.style.display = "block";
+                } else {
+                    scrollToTopBtn.style.display = "none";
+                }
+            };
+
+            // Scroll to top when button is clicked
+            scrollToTopBtn.addEventListener("click", function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            });
+        </script>
 
     </body>
 </html>
